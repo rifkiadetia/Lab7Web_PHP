@@ -37,10 +37,10 @@ Lab7Web_PHP/
 | Latihan | Hasil |
 |---|---|
 | 1 | PHP berhasil dijalankan, tampil teks dan waktu server |
-| 2 | Nilai akhir dan predikat dihitung dengan benar (contoh 84,90 = B) |
+| 2 | Nilai akhir dan predikat dihitung dengan benar (contoh 88,90 = A) |
 | 3 | Daftar mahasiswa tampil dengan foreach |
 | 4 | Function diskon dan function tambahan berjalan (Rp135.000) |
-| 5 | Form GET, URL berubah menjadi `?kata=...` |
+| 5 | Form GET, URL berubah menjadi `?kata=Informatika` |
 | 6 | Form POST, input ditampilkan aman dengan htmlspecialchars() |
 | 7 | Subtotal dihitung, input tidak valid ditolak |
 | Mini Project | Formulir data mahasiswa dengan validasi server-side |
@@ -51,8 +51,11 @@ Lab7Web_PHP/
 | Valid | Data lengkap, semester 3, email rifki@mail.com | Ringkasan data tampil |
 ![Latihan 1](Mini%20project/screenshots/projectvalid1.png)
 | Valid | Data lengkap, semester 14, email ade@kampus.ac.id | Ringkasan data tampil |
+![Latihan 1](Mini%20project/screenshots/projectvalid2.png)
 | Tidak valid | Email `rifki@` | Muncul pesan "Format email tidak valid." |
+![Latihan 1](Mini%20project/screenshots/projecterror1.png)
 | Tidak valid | Semester `15` | Muncul pesan "Semester harus berupa angka 1-14." |
+![Latihan 1](Mini%20project/screenshots/projecterror2.png)
 
 ## Kesimpulan
 PHP berjalan di sisi server dan mengirim hasil HTML ke browser. Data form harus divalidasi di server dan ditampilkan dengan `htmlspecialchars()` agar aman.
