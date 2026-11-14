@@ -30,6 +30,7 @@ Lab7Web_PHP/
 │   └── latihan7.php
 ├── Mini project/
 │   └── data_mahasiswa.php
+│   └── screenshots/
 └── README.md
 
 ## Ringkasan Hasil
