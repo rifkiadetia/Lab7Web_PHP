@@ -18,7 +18,7 @@ Mempelajari dasar PHP: variabel, percabangan, perulangan, function, pemrosesan f
 3. Buka browser: `http://localhost/Lab7web_PHP/`
 
 ## Struktur File
-```
+
 Lab7Web_PHP/
 ├── Latihan 1-7/
 │   ├── index.php        (Latihan 1)
@@ -49,6 +49,7 @@ Lab7Web_PHP/
 | Jenis | Input | Hasil |
 |---|---|---|
 | Valid | Data lengkap, semester 3, email rifki@mail.com | Ringkasan data tampil |
+![Latihan 1](mini%20project/screenshots/projectvalid1.png)
 | Valid | Data lengkap, semester 14, email ade@kampus.ac.id | Ringkasan data tampil |
 | Tidak valid | Email `rifki@` | Muncul pesan "Format email tidak valid." |
 | Tidak valid | Semester `15` | Muncul pesan "Semester harus berupa angka 1-14." |
